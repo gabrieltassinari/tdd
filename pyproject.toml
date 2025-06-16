@@ -1,0 +1,13 @@
+[project]
+name = "tdd"
+version = "0.1.0"
+description = "Projeto de um encurtador de URLs"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "flask>=3.1.1",
+    "httpx>=0.28.1",
+    "pyright>=1.1.401",
+    "pytest>=8.4.0",
+    "requests>=2.32.3",
+]
